@@ -1,0 +1,11 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
+public class Phonebook {
+    //Создание коллекци
+    Map<String, HashSet<String>> pb;
+
+    public Phonebook(){
+        pb = new HashMap<>();
+    }
